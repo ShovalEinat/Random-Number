@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(70, 6, 173);
+}
+
+#randomNumber{
+    font-size: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reSet{
+    background-color: rgb(70, 6, 173);
+    display: block;
+
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 70px;
+    border: none;
+}
+
+#gameTitle{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Start{
+    background-color: rgb(70, 6, 173);
+    display: block;
+
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 70px;
+    border: none;
+}
+
+#space{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#space1{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#topSecret{
+    width: 150px;
+    height: 132;
+
+    position: absolute;
+    top: 94%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+#Press{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#endGame{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    color:rgb(0, 255, 242);
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#endGame2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    color:blue;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#endGame3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    color:blue;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#endGame4{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(255, 0, 0);
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#enterPassword{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    position: absolute;
+    top: 49%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+#typePassword{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(70, 6, 173);
+    width: 400px;
+    height: 40px;
+
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+#passwordCheck{
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(70, 6, 173);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 50px;
+    border: none;
+}
+
+#clue{
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(70, 6, 173);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 30px;
+    border: none;
+    width: 450px;
+}
+
+#mainTimer{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
